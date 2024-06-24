@@ -1,3 +1,4 @@
+#make sure to import these libraries
 from pytube import YouTube
 import tkinter as tk
 from tkinter import filedialog
@@ -24,7 +25,7 @@ if __name__ == "__main__":
     root.withdraw()
 
     video_url = input("Please enter a YouTube url: ")
-    save_dir = #url or open_file_dialog()
+    save_dir = #Enter a fixed storage path or  use open_file_dialog() to ask everytime
 
     if save_dir:
         print("Started download...")
